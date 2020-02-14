@@ -1,0 +1,454 @@
+/* ------------------------------- */
+/* hebe SIZING FOR 650 PIXEL WIDTH */
+/* ------------------------------- */
+
+.flexibleContainer {
+    width: 650px;
+}
+
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left .flexibleContainerRight,
+.snippet_block_text_image_left .flexibleContainerRight .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_left.hebe_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_sb_fg_background .flexibleContainerRight {
+    width: 340px;
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right .flexibleContainerLeft,
+.snippet_block_text_image_right .flexibleContainerLeft .flexibleImage {
+    width: 390px;
+}
+.snippet_block_text_image_right.hebe_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_sb_fg_background .flexibleContainerLeft {
+    width: 340px;
+}
+
+/* .snippet_block_text_twocol */
+.snippet_block_text_twocol .flexibleContainerRight,
+.snippet_block_text_twocol .flexibleContainerRight .flexibleImage {
+    width: 295px;
+}
+.snippet_block_text_twocol .flexibleContainerLeft,
+.snippet_block_text_twocol .flexibleContainerLeft .flexibleImage {
+    width: 295px;
+}
+
+/* .snippet_block_text_threecol */
+.snippet_block_text_threecol .flexibleContainer33,
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage {
+    width: 190px;
+}
+
+/* .snippet_block_banner */
+.snippet_block_banner .flexibleImage,
+.snippet_block_banner.dadi_sb_bg_normal .flexibleImage {
+    width: 610px;
+    max-width: 610px;
+}
+.snippet_block_banner.dadi_sb_bg_full .flexibleImage {
+    width: 650px;
+    max-width: 650px;
+}
+.snippet_block_banner.dadi_sb_bg_narrow .flexibleImage {
+    width: 570px;
+    max-width: 570px;
+}
+
+
+
+
+/* --------------- */
+/* SNIPPET OPTIONS */
+/* --------------- */
+
+/* special Style round with white Border */
+/*
+.snippet_block_text_image_left .flexibleContainerLeft img.flexibleImage,
+.snippet_block_text_image_right .flexibleContainerRight img.flexibleImage {
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}*/
+
+/* Background and Foreground Options for Snippet Blocks */
+/* ---------------------------------------------------- */
+.hebe_sb_bg_background .flexibleContainerCell,
+.hebe_sb_fg_background .flexibleContainerCell .nestedContainerCell {
+    background-color: #f6f6f5;
+}
+.hebe_sb_bg_red .flexibleContainerCell,
+.hebe_sb_fg_red .flexibleContainerCell .nestedContainerCell {
+    background-color: #dd710f;
+    color: black;
+}
+.hebe_sb_fg_grey .flexibleContainerCell,
+.hebe_sb_bg_grey .flexibleContainerCell .nestedContainerCell {
+    background-color: #736664;
+    color: white;
+}
+.hebe_sb_bg_yellow .flexibleContainerCell,
+.hebe_sb_fg_yellow .flexibleContainerCell .nestedContainerCell {
+    background-color: #f6d6b7;
+    color: black;
+}
+
+.hebe_sb_fg_background .flexibleContainerCell .nestedContainerCell,
+.hebe_sb_fg_red .flexibleContainerCell .nestedContainerCell,
+.hebe_sb_fg_grey .flexibleContainerCell .nestedContainerCell,
+.hebe_sb_fg_yellow .flexibleContainerCell .nestedContainerCell {
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0;
+}
+
+/* hebe_snippet_block_padding */
+/* -------------------------- */
+
+.snippet_block.hebe_snippet_block_padding_none .flexibleContainer .flexibleContainerCell {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block.hebe_snippet_block_padding_lower .flexibleContainer .flexibleContainerCell {
+    padding-bottom: 0;
+}
+.snippet_block.hebe_snippet_block_padding_smallbox .flexibleContainer .flexibleContainerCell {
+    padding-top: 12px;
+    padding-bottom: 5px;
+}
+.snippet_block.hebe_snippet_block_padding_largebox .flexibleContainer .flexibleContainerCell {
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+/* hebe_snipped_block_img_padding_top */
+/* ---------------------------------- */
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_none {
+    padding-top: initial;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_10 {
+    padding-top: 10px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_20 {
+    padding-top: 20px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_30 {
+    padding-top: 30px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_40 {
+    padding-top: 40px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_50 {
+    padding-top: 50px;
+}
+.snippet_block_text_threecol .flexibleContainer33 .flexibleImage.hebe_snippet_block_img_padding_top_60 {
+    padding-top: 60px;
+}
+
+/* .hebe_text_image_red_box, hebe_text_image_blue_box */
+/* -------------------------------------------------- */
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerLeft {
+    background-color: white;
+}
+
+.snippet_block_text_image_left.hebe_text_image_blue_box .contentTable {
+    background-color: #736664;
+}
+.snippet_block_text_image_left.hebe_text_image_red_box .contentTable {
+    background-color: #F19130;
+}
+
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerCell,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerCell {
+    padding: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerCell .flexibleContainerRight .textContent,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerCell .flexibleContainerRight .textContent {
+    padding: 10px 20px 10px 0;
+}
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerRight{
+    min-height: 30px;
+}
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent p,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent a,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent a:visited,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent div,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent h1,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent h2,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent h3,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent h4,
+.snippet_block_text_image_left.hebe_text_image_blue_box .textContent h5,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent p,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent a,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent a:visited,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent div,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent h1,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent h2,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent h3,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent h4,
+.snippet_block_text_image_left.hebe_text_image_red_box .textContent h5 {
+    color: white;
+}
+.snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_text_image_red_box .flexibleContainerRight {
+    width: 430px;
+    /*width: 450px;*/
+}
+
+
+/* .snippet_block_text_image_left Image Height */
+/* ------------------------------------------- */
+/*
+    min-height would be the best option but will not work in outlook on windows :( I HATE OUTLOOK !!!!
+*/
+/*.snippet_block_text_image_left.hebe_image_height_100 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_100 .contentTable .flexibleContainerLeft {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.hebe_image_height_150 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_150 .contentTable .flexibleContainerLeft {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.hebe_image_height_200 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_200 .contentTable .flexibleContainerLeft {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.hebe_image_height_250 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_250 .contentTable .flexibleContainerLeft {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.hebe_image_height_300 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_300 .contentTable .flexibleContainerLeft {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.hebe_image_height_400 .contentTable .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_image_height_400 .contentTable .flexibleContainerLeft {
+    min-height: 400px;
+}*/
+
+/*
+    This will work with outlook on windows
+*/
+.snippet_block_text_image_left.hebe_image_height_100 .contentTable .flexibleContainerRight {
+    min-height: 100px;
+}
+.snippet_block_text_image_left.hebe_image_height_150 .contentTable .flexibleContainerRight {
+    min-height: 150px;
+}
+.snippet_block_text_image_left.hebe_image_height_200 .contentTable .flexibleContainerRight {
+    min-height: 200px;
+}
+.snippet_block_text_image_left.hebe_image_height_250 .contentTable .flexibleContainerRight {
+    min-height: 250px;
+}
+.snippet_block_text_image_left.hebe_image_height_300 .contentTable .flexibleContainerRight {
+    min-height: 300px;
+}
+.snippet_block_text_image_left.hebe_image_height_400 .contentTable .flexibleContainerRight {
+    min-height: 400px;
+}
+
+.snippet_block_text_image_left.hebe_image_height_100 .contentTable .flexibleContainerLeft .imageContent {
+    height: 100px;
+}
+.snippet_block_text_image_left.hebe_image_height_150 .contentTable .flexibleContainerLeft .imageContent {
+    height: 150px;
+}
+.snippet_block_text_image_left.hebe_image_height_200 .contentTable .flexibleContainerLeft .imageContent {
+    height: 200px;
+}
+.snippet_block_text_image_left.hebe_image_height_250 .contentTable .flexibleContainerLeft .imageContent {
+    height: 250px;
+}
+.snippet_block_text_image_left.hebe_image_height_300 .contentTable .flexibleContainerLeft .imageContent {
+    height: 300px;
+}
+.snippet_block_text_image_left.hebe_image_height_400 .contentTable .flexibleContainerLeft .imageContent {
+    height: 400px;
+}
+
+
+/* .snippet_block_text_image_left Image Vertical Align */
+/* --------------------------------------------------- */
+.snippet_block_text_image_left.hebe_image_valign_middle .flexibleContainerLeft .imageContent{
+    vertical-align: middle;
+}
+.snippet_block_text_image_left.hebe_image_valign_bottom .flexibleContainerLeft .imageContent{
+    vertical-align: bottom;
+}
+
+/* .hebe_large_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.hebe_large_image .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_large_image .flexibleContainerLeft .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_left.hebe_large_image .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_large_image .flexibleContainerRight .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_left.hebe_large_image.hebe_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_large_image.hebe_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_large_image.hebe_sb_fg_background .flexibleContainerRight {
+    width: 190px;
+}
+.snippet_block_text_image_left.hebe_large_image.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_large_image.hebe_text_image_red_box .flexibleContainerRight {
+    width: 280px;
+    /*width: 300px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.hebe_large_image .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_large_image .flexibleContainerLeft .flexibleImage {
+    width: 240px;
+}
+.snippet_block_text_image_right.hebe_large_image .flexibleContainerRight,
+.snippet_block_text_image_right.hebe_large_image .flexibleContainerRight .flexibleImage {
+    width: 350px;
+}
+.snippet_block_text_image_right.hebe_large_image.hebe_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_large_image.hebe_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_large_image.hebe_sb_fg_background .flexibleContainerLeft {
+    width: 190px;
+}
+/* image dreier block Bildgrößen */
+.snippet_block_text_threecol.hebe_large_image .flexibleContainer33,
+.snippet_block_text_threecol.hebe_large_image .flexibleContainer33 .flexibleImage {
+    width: 280px;
+}
+/* .hebe_medium_image: image size 400px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.hebe_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_left.hebe_medium_image .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_medium_image .flexibleContainerRight .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_left.hebe_medium_image.hebe_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_medium_image.hebe_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_medium_image.hebe_sb_fg_background .flexibleContainerRight {
+    width: 270px;
+}
+.snippet_block_text_image_left.hebe_medium_image.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_medium_image.hebe_text_image_red_box .flexibleContainerRight {
+    width: 360px;
+    /*width: 380px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.hebe_medium_image .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_medium_image .flexibleContainerLeft .flexibleImage {
+    width: 320px;
+}
+.snippet_block_text_image_right.hebe_medium_image .flexibleContainerRight,
+.snippet_block_text_image_right.hebe_medium_image .flexibleContainerRight .flexibleImage {
+    width: 270px;
+}
+.snippet_block_text_image_right.hebe_medium_image.hebe_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_medium_image.hebe_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_medium_image.hebe_sb_fg_background .flexibleContainerLeft {
+    width: 270px;
+}
+
+/* .hebe_small_image: image size 140px */
+/* ----------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.hebe_small_image .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_small_image .flexibleContainerLeft .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_left.hebe_small_image .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_small_image .flexibleContainerRight .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_left.hebe_small_image.hebe_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_small_image.hebe_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_small_image.hebe_sb_fg_background .flexibleContainerRight {
+    width: 400px;
+}
+.snippet_block_text_image_left.hebe_small_image.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_small_image.hebe_text_image_red_box .flexibleContainerRight {
+    width: 490px;
+    /*width: 510px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.hebe_small_image .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_small_image .flexibleContainerLeft .flexibleImage {
+    width: 450px;
+}
+.snippet_block_text_image_right.hebe_small_image .flexibleContainerRight,
+.snippet_block_text_image_right.hebe_small_image .flexibleContainerRight .flexibleImage {
+    width: 140px;
+}
+.snippet_block_text_image_right.hebe_small_image.hebe_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_small_image.hebe_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_small_image.hebe_sb_fg_background .flexibleContainerLeft {
+    width: 400px;
+}
+
+
+/* .hebe_tiny_image: image size 90px */
+/* --------------------------------- */
+
+/* .snippet_block_text_image_left */
+.snippet_block_text_image_left.hebe_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_left.hebe_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_left.hebe_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_left.hebe_tiny_image.hebe_sb_fg_red .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_tiny_image.hebe_sb_fg_grey .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_tiny_image.hebe_sb_fg_background .flexibleContainerRight {
+    width: 450px;
+}
+.snippet_block_text_image_left.hebe_tiny_image.hebe_text_image_blue_box .flexibleContainerRight,
+.snippet_block_text_image_left.hebe_tiny_image.hebe_text_image_red_box .flexibleContainerRight {
+    width: 540px;
+    /*width: 560px;*/
+}
+
+/* .snippet_block_text_image_right */
+.snippet_block_text_image_right.hebe_tiny_image .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_tiny_image .flexibleContainerLeft .flexibleImage {
+    width: 500px;
+}
+.snippet_block_text_image_right.hebe_tiny_image .flexibleContainerRight,
+.snippet_block_text_image_right.hebe_tiny_image .flexibleContainerRight .flexibleImage {
+    width: 90px;
+}
+.snippet_block_text_image_right.hebe_tiny_image.hebe_sb_fg_red .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_tiny_image.hebe_sb_fg_grey .flexibleContainerLeft,
+.snippet_block_text_image_right.hebe_tiny_image.hebe_sb_fg_background .flexibleContainerLeft {
+    width: 450px;
+}
+
+
+.snippet_block_text_image_left.hebe_circle_image .flexibleContainerLeft img.flexibleImage,
+.snippet_block_text_image_right.hebe_circle_image .flexibleContainerRight img.flexibleImage{
+    border: 4px solid #ffffff;
+    border-radius: 50%;
+}
