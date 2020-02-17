@@ -78,8 +78,8 @@
                                                                                                         <tr style="text-align: right;">
                                                                                                             <td class="textContent ckediting_enabled"
                                                                                                                 valign="middle">
-                                                                                                                <span style="padding-top: 5px; color: #5a5a5a; text-align: right;">
-                                                                                                                    <strong>Herz bewegt</strong><br>Verein zur Förderung der Herzgesundheit</br>Schlossgasse 13/2/1<br>1050 Wien</br><a>www.herzbewegt.org</a><a href="http://www.herzbewegt.at/" target="_blank"></a>
+                                                                                                                <span style="padding-top: 5px; color: #5a5a5a; text-align: right; font-size: 15px;">
+                                                                                                                    <strong>Herz bewegt</strong><br>Verein zur Förderung der Herzgesundheit</br>Schlossgasse 13/2/1<br>1050 Wien</br><a>www.herzbewegt.org</a><a style="font-size=15px;" href="http://www.herzbewegt.at/" target="_blank"></a>
                                                                                                                 </span>
                                                                                                             </td>
                                                                                                         </tr>
@@ -144,13 +144,14 @@
                                                                                                        border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
+                                                                                                       style="width:130px;"
                                                                                                        class="flexibleContainerLeft">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="left"
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top">
-                                                                                                                <img class="flexibleImage"
+                                                                                                                <img style="width:130px; padding-right:15px;" class="flexibleImage"
                                                                                                                      src="/fso_website_email_hebe/static/src/icons/herbert_zugeschnitten.jpg"/>
                                                                                                             </td>
                                                                                                         </tr>
@@ -166,7 +167,7 @@
                                                                                                             <td class="textContent ckediting_enabled"
                                                                                                                 valign="middle">
                                                                                                                     Herzlichst,
-                                                                                                                <img style="width:200px;" class="flexibleImage"
+                                                                                                                <img style="width:150px;" class="flexibleImage"
                                                                                                                      src="/fso_website_email_hebe/static/src/icons/unterschrift.png"/>
                                                                                                                 Herbert Witschnig
                                                                                                             </td>
@@ -274,23 +275,25 @@
                                                                             <td align="center"
                                                                                 class="nestedContainerCell"
                                                                                 valign="top">
+                                                                                <span>Folge uns auch auf Social Media:</span>
                                                                                 <table border="0" cellpadding="0"
                                                                                        cellspacing="0"
-                                                                                       class="contentTable">
+                                                                                       class="contentTable"
+                                                                                       style="width:auto;">
                                                                                     <tbody>
                                                                                         <tr>
-                                                                                            <td class="textContent">
-                                                                                                <span>Folge uns auch auf Social Media:</span>
+                                                                                            <td class="textContent" stale="display:inline-flex;">
                                                                                                 <table align="left"
                                                                                                        border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
+                                                                                                       style="width:35px;"
                                                                                                        class="flexibleContainer33 flexibleContainer33left">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="center"
                                                                                                                 class="textContent ckediting_enabled"
-                                                                                                                style="text-align:center;"
+                                                                                                                style="text-align:center; width:auto;"
                                                                                                                 valign="top">
                                                                                                                 <a href="https://www.facebook.com/herzbewegt/" target="_blank">
                                                                                                                 <img class="flexibleImage mediaicon"
@@ -305,12 +308,13 @@
                                                                                                        border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
+                                                                                                      style="width:35px;"
                                                                                                        class="flexibleContainer33 flexibleContainer33middle">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="center"
                                                                                                                 class="textContent ckediting_enabled"
-                                                                                                                style="text-align:center;"
+                                                                                                                style="text-align:center; width:auto;"
                                                                                                                 valign="top">
                                                                                                                 <a href="https://www.youtube.com/channel/UCkRPgxfdmZdH1PiV1-eKVHQ" target="_blank">
                                                                                                                 <img class="flexibleImage mediaicon"
@@ -325,12 +329,13 @@
                                                                                                        border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
+                                                                                                      style="width:35px;"
                                                                                                        class="flexibleContainer33 flexibleContainer33right">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="center"
                                                                                                                 class="textContent ckediting_enabled"
-                                                                                                                style="text-align:center;"
+                                                                                                                style="text-align:center; width:auto;"
                                                                                                                 valign="top">
                                                                                                                 <a href="https://www.instagram.com/herzbewegt/" target="_blank">
                                                                                                                 <img class="flexibleImage mediaicon"
@@ -384,22 +389,18 @@
                                                                                             <td class="textContent ckediting_enabled">
                                                                                                 <p style="text-align: center;">
                                                                                                     <span style="color: rgb(51, 51, 51); font-size: 16px; background-color: transparent; text-align: center;">
-                                                                                                        Diese E-Mail wurde an maxime@imaginative-server.dom gesandt. Du erhältst dieses E-Mail, weil du den Herz bewegt-Newsletter abonniert hast.
-                                                                                                        Wir belästigen dich? Das wollen wir nicht.
-                                                                                                        <a style="color: grey;" href="https://www.herzbewegt.org/news-abmeldung" target="_blank">Hier kannst du dich abmelden</a>
+                                                                                                        Diese E-Mail wurde an maxime@imaginative-server.dom gesandt. Du erhältst dieses E-Mail, weil du den Herz bewegt-Newsletter abonniert hast.<br></br>
+                                                                                                        Wir belästigen dich? Das wollen wir nicht.<br></br>
+                                                                                                        <a style="color: grey; font-size: 16px;" href="https://www.herzbewegt.org/news-abmeldung" target="_blank">Hier kannst du dich abmelden</a><br></br><br></br>
                                                                                                     </span>
                                                                                                 </p>
 
-                                                                                                <p style="text-align: center;">
-                                                                                                    Copyright © 2018 <strong>Herz bewegt</strong>
-                                                                                                    Schlossgasse 13/2/1, 1050 Wien
-                                                                                                    <br>
-                                                                                                        Tel: +43 1 54 80 171
-                                                                                                    </br>
-                                                                                                    <a href="mailto:office@wiener-tierschutzverein.org">
-                                                                                                        Email: info@herzbewegt.org</a>
-                                                                                                    |
-                                                                                                    <a href="https://www.herzbewegt.org" target="_blank">Homepage: herzbewegt.org</a>
+                                                                                                <p style="text-align: center; font-size: 16px;">
+                                                                                                    Copyright © 2018 <strong>Herz bewegt</strong><br></br>
+                                                                                                    Schlossgasse 13/2/1, 1050 Wien<br></br>
+                                                                                                        Tel: +43 1 54 80 171<br></br>
+                                                                                                    Email: <a style="font-size: 16px;" href="mailto:office@wiener-tierschutzverein.org">info@herzbewegt.org</a><br></br>
+                                                                                                    Homepage: <a style="font-size: 16px;" href="https://www.herzbewegt.org" target="_blank">herzbewegt.org</a>
                                                                                                 </p>
                                                                                             </td>
                                                                                         </tr>

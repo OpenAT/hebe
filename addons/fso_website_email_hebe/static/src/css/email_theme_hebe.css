@@ -46,15 +46,15 @@ a,
 #emailBody ol li {
     /*font-family: 'PT Sans', 'Trebuchet MS', sans-serif;*/
     font-family: 'HelveticaNeue-Light', 'Helvetica Neue Light', 'HelveticaNeue', 'Helvetica Neue', 'Segoe UI', 'Dejavu Sans', Helvetica, Arial, sans-serif;
-    font-size: 15px;
+    font-size: 18px;
     color: #500050;
+    line-height: 22px;
+    text-align: center;
 }
 
 
 /* ATTENTION: Do not add line-height to "td", "div" or "span" elements to support Outlook 2013 and alike */
-p {
-    line-height: 1.8em;
-}
+
 div, span, td {
     font-size: inherit;
 }
