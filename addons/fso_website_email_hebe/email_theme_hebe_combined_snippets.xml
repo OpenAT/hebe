@@ -144,15 +144,15 @@
                                                                                                        border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
-                                                                                                       style="width:130px;"
+                                                                                                       style="width:130px; margin-left:5px; margin-right:5px;"
                                                                                                        class="flexibleContainerLeft">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td align="left"
                                                                                                                 class="imageContent ckediting_enabled"
                                                                                                                 valign="top">
-                                                                                                                <img style="width:130px; padding-right:15px;" class="flexibleImage"
-                                                                                                                     src="/fso_website_email_hebe/static/src/icons/herbert_zugeschnitten.jpg"/>
+                                                                                                                <img style="width:130px;" class="flexibleImage"
+                                                                                                                     src="/fso_website_email_hebe/static/src/icons/herbert_zugeschnitten_web.jpg"/>
                                                                                                             </td>
                                                                                                         </tr>
                                                                                                     </tbody>
@@ -161,13 +161,14 @@
                                                                                                 <table align="left" border="0"
                                                                                                        cellpadding="0"
                                                                                                        cellspacing="0"
+                                                                                                       style="width:130px; margin-left:5px; margin-right:5px;"
                                                                                                        class="flexibleContainerRight">
                                                                                                     <tbody>
                                                                                                         <tr>
                                                                                                             <td class="textContent ckediting_enabled"
                                                                                                                 valign="middle">
                                                                                                                     Herzlichst,
-                                                                                                                <img style="width:150px;" class="flexibleImage"
+                                                                                                                <img style="width:130px;" class="flexibleImage"
                                                                                                                      src="/fso_website_email_hebe/static/src/icons/unterschrift.png"/>
                                                                                                                 Herbert Witschnig
                                                                                                             </td>
@@ -316,9 +317,9 @@
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:center; width:auto;"
                                                                                                                 valign="top">
-                                                                                                                <a href="https://www.youtube.com/channel/UCkRPgxfdmZdH1PiV1-eKVHQ" target="_blank">
+                                                                                                                <a href="https://www.instagram.com/herzbewegt/" target="_blank">
                                                                                                                 <img class="flexibleImage mediaicon"
-                                                                                                                     src="/fso_website_email_hebe/static/src/icons/YouTube_icon.png"
+                                                                                                                     src="/fso_website_email_hebe/static/src/icons/instagram-1581266_960_720.jpg"
                                                                                                                      style="text-align:center; width:32px; height:32px;"/></a>
                                                                                                             </td>
                                                                                                         </tr>
@@ -337,9 +338,9 @@
                                                                                                                 class="textContent ckediting_enabled"
                                                                                                                 style="text-align:center; width:auto;"
                                                                                                                 valign="top">
-                                                                                                                <a href="https://www.instagram.com/herzbewegt/" target="_blank">
+                                                                                                                <a href="https://www.youtube.com/channel/UCkRPgxfdmZdH1PiV1-eKVHQ" target="_blank">
                                                                                                                 <img class="flexibleImage mediaicon"
-                                                                                                                     src="/fso_website_email_hebe/static/src/icons/instagram-1581266_960_720.jpg"
+                                                                                                                     src="/fso_website_email_hebe/static/src/icons/YouTube_icon.png"
                                                                                                                      style="text-align:center; width:32px; height:32px;"/></a>
                                                                                                             </td>
                                                                                                         </tr>

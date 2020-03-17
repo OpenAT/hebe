@@ -11,6 +11,10 @@
     /*table.flexibleContainer {*/
     /*    width: 100% !important;*/
     /*}*/
+    #combinedsnippetfooter table.flexibleContainerLeft,
+    #combinedsnippetfooter table.flexibleContainerRight {
+        width: initial !important;
+    }
     #combinedheadersnippet table.flexibleContainerLeft img.flexibleImage {
         width: 83px !important;
         margin: auto;

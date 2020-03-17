@@ -83,8 +83,8 @@
 }
 .hebe_sb_bg_red .flexibleContainerCell,
 .hebe_sb_fg_red .flexibleContainerCell .nestedContainerCell {
-    background-color: #dd710f;
-    color: black;
+    background-color: #BE1522;
+    color: #500050;
 }
 .hebe_sb_fg_grey .flexibleContainerCell,
 .hebe_sb_bg_grey .flexibleContainerCell .nestedContainerCell {
@@ -162,7 +162,7 @@
     background-color: #736664;
 }
 .snippet_block_text_image_left.hebe_text_image_red_box .contentTable {
-    background-color: #F19130;
+    background-color: #BE1522;
 }
 
 .snippet_block_text_image_left.hebe_text_image_blue_box .flexibleContainerCell,
