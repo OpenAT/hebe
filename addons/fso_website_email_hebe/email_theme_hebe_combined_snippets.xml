@@ -56,11 +56,12 @@
                                                                                                 contenteditable="true">
                                                                                                 <p class="hebe_tiny"
                                                                                                    style="text-align: center;">
+                                                                                                    Wenn diese Nachricht nicht richtig angezeigt wird, verwenden Sie bitte die
                                                                                                     <a href="%open_browser%"
                                                                                                        data-cke-saved-href="%open_browser%"
                                                                                                        target="_blank"
-                                                                                                       style="text-align: center; color: gray; font-weight: 700; font-size: 12px;">
-                                                                                                        Zur Webversion
+                                                                                                       style="color: gray; font-weight: 700; font-size: 12px;">
+                                                                                                        Online Version
                                                                                                     </a>
                                                                                                 </p>
                                                                                             </td>
@@ -80,102 +81,101 @@
                                     </tbody>
                                 </table>
                             </div>
-                            <div id="combinedheadersnippet" class="oe_snippet_body ckediting_disabled hebe_bin">
-                                <div class="snippet_block ckediting_enabled snippet_block_text_image_left hebe_sb_bg_background">
-                                    <table cellpadding="0" cellspacing="0" class="centeringTable">
-                                        <tbody>
-                                            <tr>
-                                                <td align="center" valign="top">
-                                                    <table border="0" cellpadding="0" cellspacing="0"
-                                                           class="flexibleContainer">
-                                                        <tbody>
-                                                            <tr>
-                                                                <td align="center" class="flexibleContainerCell"
-                                                                    valign="top">
-                                                                    <table border="0" cellpadding="0" cellspacing="0"
-                                                                           class="nestedContainer">
-                                                                        <tbody>
-                                                                            <tr>
-                                                                                <td align="center"
-                                                                                    class="nestedContainerCell"
-                                                                                    valign="top">
-                                                                                    <table border="0" cellpadding="0"
-                                                                                           cellspacing="0"
-                                                                                           class="contentTable">
-                                                                                        <tbody>
-                                                                                            <tr>
-                                                                                                <td class="textContent">
-                                                                                                    <table align="left"
-                                                                                                           border="0"
-                                                                                                           cellpadding="0"
-                                                                                                           cellspacing="0"
-                                                                                                           class="flexibleContainerLeft">
-                                                                                                        <tbody>
-                                                                                                            <tr>
-                                                                                                                <td align="left"
-                                                                                                                    class="imageContent ckediting_enabled"
-                                                                                                                    valign="top">
-                                                                                                                    <img class="flexibleImage"
-                                                                                                                         src="/fso_website_email_hebe/static/src/icons/Logo_Herz_bewegt.png"/>
-                                                                                                                </td>
-                                                                                                            </tr>
-                                                                                                        </tbody>
-                                                                                                    </table>
+                            <div id="combinedheadersnippet" class="snippet_block ckediting_enabled snippet_block_text_image_left hebe_sb_bg_background">
+                                <table cellpadding="0" cellspacing="0" class="centeringTable">
+                                    <tbody>
+                                        <tr>
+                                            <td align="center" valign="top">
+                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                       class="flexibleContainer">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td align="center" class="flexibleContainerCell"
+                                                                valign="top">
+                                                                <table border="0" cellpadding="0" cellspacing="0"
+                                                                       class="nestedContainer">
+                                                                    <tbody>
+                                                                        <tr>
+                                                                            <td align="center"
+                                                                                class="nestedContainerCell"
+                                                                                valign="top">
+                                                                                <table border="0" cellpadding="0"
+                                                                                       cellspacing="0"
+                                                                                       class="contentTable">
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td class="textContent">
+                                                                                                <table align="left"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerLeft">
+                                                                                                    <tbody>
+                                                                                                        <tr>
+                                                                                                            <td align="left"
+                                                                                                                class="imageContent ckediting_enabled"
+                                                                                                                valign="top">
+                                                                                                                <img class="flexibleImage"
+                                                                                                                     src="/fso_website_email_hebe/static/src/icons/Logo_Herz_bewegt.png"/>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
 
-                                                                                                    <table align="right"
-                                                                                                           border="0"
-                                                                                                           cellpadding="0"
-                                                                                                           cellspacing="0"
-                                                                                                           class="flexibleContainerRight">
-                                                                                                        <tbody>
-                                                                                                            <tr style="text-align: right;">
-                                                                                                                <td class="textContent ckediting_enabled"
-                                                                                                                    valign="middle">
-                                                                                                                    <span style="padding-top: 5px; color: #5a5a5a; text-align: right; font-size: 15px;">
-                                                                                                                        <strong>
-                                                                                                                            Herz
-                                                                                                                            bewegt
-                                                                                                                        </strong>
-                                                                                                                        <br>
-                                                                                                                            Verein
-                                                                                                                            zur
-                                                                                                                            Förderung
-                                                                                                                            der
-                                                                                                                            Herzgesundheit</br>
-                                                                                                                        Schlossgasse
-                                                                                                                        13/2/1
-                                                                                                                        <br>
-                                                                                                                            1050
-                                                                                                                            Wien
-                                                                                                                        </br>
-                                                                                                                        <a>
-                                                                                                                            www.herzbewegt.org
-                                                                                                                        </a>
-                                                                                                                        <a style="font-size=15px;"
-                                                                                                                           href="http://www.herzbewegt.at/"
-                                                                                                                           target="_blank"></a>
-                                                                                                                    </span>
-                                                                                                                </td>
-                                                                                                            </tr>
-                                                                                                        </tbody>
-                                                                                                    </table>
-                                                                                                </td>
-                                                                                            </tr>
-                                                                                        </tbody>
-                                                                                    </table>
-                                                                                </td>
-                                                                            </tr>
-                                                                        </tbody>
-                                                                    </table>
-                                                                </td>
-                                                            </tr>
-                                                        </tbody>
-                                                    </table>
-                                                </td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
+                                                                                                <table align="right"
+                                                                                                       border="0"
+                                                                                                       cellpadding="0"
+                                                                                                       cellspacing="0"
+                                                                                                       class="flexibleContainerRight">
+                                                                                                    <tbody>
+                                                                                                        <tr style="text-align: right;">
+                                                                                                            <td class="textContent ckediting_enabled"
+                                                                                                                valign="middle">
+                                                                                                                <span style="padding-top: 5px; color: #5a5a5a; text-align: right; font-size: 15px;">
+                                                                                                                    <strong>
+                                                                                                                        Herz
+                                                                                                                        bewegt
+                                                                                                                    </strong>
+                                                                                                                    <br>
+                                                                                                                        Verein
+                                                                                                                        zur
+                                                                                                                        Förderung
+                                                                                                                        der
+                                                                                                                        Herzgesundheit
+                                                                                                                    </br>
+                                                                                                                    Schlossgasse
+                                                                                                                    13/2/1
+                                                                                                                    <br>
+                                                                                                                        1050
+                                                                                                                        Wien
+                                                                                                                    </br>
+                                                                                                                    <a>
+                                                                                                                        www.herzbewegt.org
+                                                                                                                    </a>
+                                                                                                                    <a style="font-size=15px;"
+                                                                                                                       href="http://www.herzbewegt.at/"
+                                                                                                                       target="_blank"></a>
+                                                                                                                </span>
+                                                                                                            </td>
+                                                                                                        </tr>
+                                                                                                    </tbody>
+                                                                                                </table>
+                                                                                            </td>
+                                                                                        </tr>
+                                                                                    </tbody>
+                                                                                </table>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </tbody>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                             </div>
                         </div>
                     </div>
