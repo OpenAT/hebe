@@ -61,6 +61,7 @@
                 <li data-value='hebe_sb_fg_grey'><a>Grau</a></li>
                 <li data-value='hebe_sb_fg_yellow'><a>Hell Orange</a></li>
                 <li data-value='hebe_sb_fg_background'><a>Background</a></li>
+                <li data-value='hebe_sb_fg_blue'><a>Blau</a></li>
             </ul>
         </xpath>
         
@@ -72,6 +73,7 @@
                 <li data-value='hebe_sb_bg_grey'><a>Grau</a></li>
                 <li data-value='hebe_sb_bg_yellow'><a>Hell Orange</a></li>
                 <li data-value='hebe_sb_bg_background'><a>Background</a></li>
+                <li data-value='hebe_sb_bg_blue'><a>Blau</a></li>
             </ul>
         </xpath>
         
