@@ -95,11 +95,19 @@
     color: white;
     font-weight: bold;
 }
+/* green */
+.snippet_block_bpbutton.bpbutton_style_brown .bpbutton_table,
+.snippet_block_bpbutton.bpbutton_style_brown .bpbutton_table a {
+    background-color: #736664;
+    border-color: #736664;
+    color: white;
+    font-weight: bold;
+}
 /* blue */
 .snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table,
 .snippet_block_bpbutton.bpbutton_style_blue .bpbutton_table a {
-    background-color: #736664;
-    border-color: #736664;
+    background-color: #32A09C;
+    border-color: #32A09C;
     color: white;
     font-weight: bold;
 }

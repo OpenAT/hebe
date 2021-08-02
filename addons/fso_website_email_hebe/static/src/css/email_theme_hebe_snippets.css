@@ -96,7 +96,11 @@
     background-color: #f6d6b7;
     color: black;
 }
-
+.hebe_sb_bg_blue .flexibleContainerCell,
+.hebe_sb_fg_blue .flexibleContainerCell .nestedContainerCell {
+    background-color: #32A09C;
+    color: white;
+}
 .hebe_sb_fg_background .flexibleContainerCell .nestedContainerCell,
 .hebe_sb_fg_red .flexibleContainerCell .nestedContainerCell,
 .hebe_sb_fg_grey .flexibleContainerCell .nestedContainerCell,
